@@ -1,38 +1,264 @@
-.App {
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.conatiner {
+  margin: auto;
+  padding: auto;
+}
+.conatiner-fluid {
+  margin: 0%;
+  padding: 0%;
+}
+
+.custam-nav {
+  justify-content: end;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.navbar {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.2px solid rgb(236, 227, 227);
+}
+.nav-item a {
+  margin: 0px 12px 12px 0px;
+  font-family: NewYorkSmallRegular;
+  color: rgb(3, 3, 3);
+}
+/* Top text */
+#toptext {
+  /* A few words about this blog platform, Ghost, and how this site was made */
+
+  font-family: NewYorkExtraLargeBlack;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  padding: 10px;
+  /* or 54px */
+
   text-align: center;
+
+  color: #000000;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+/* text before image */
+#textbfrimg {
+  font-family: SF-Mono;
+  font-style: normal;
+  font-weight: 20;
+  font-size: 19px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  /* or 34px */
+  margin-bottom: 34px;
+  padding: 10px;
+  text-align: center;
+  color: #212529;
+}
+#hr {
+  margin-top: 20 px;
+  padding-top: 22 px;
+  border: 2px solid #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+#imgtxt {
+  font-family: SF PRO TEXT;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1px;
+  /* identical to box height */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: #000000;
 }
+#parimg {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 10px;
+  /* identical to box height */
+  margin-left: 14px;
+  color: #000000;
+}
+#textaftericon {
+  font-family: New York Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  /* or 27px */
+}
+#head1 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 160%;
+  /* or 51px */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  color: #000000;
+}
+#para1 {
+  font-family: New York Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  /* or 34px */
+
+  color: #000000;
+}
+#imgcaption {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  padding: 10px;
+  text-align: center;
+
+  color: #000000;
+}
+#lists {
+  font-family: New York Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 170%;
+  /* or 34px */
+
+  color: #000000;
+}
+.icontxt {
+  margin-left: 17px;
+}
+.iconpad {
+  margin: 0px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+  border: 1px solid rgb(238, 231, 231);
+}
+#parah {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #0c0c0c;
+}
+#hr2 {
+  padding-top: 22 px;
+  border: 1px dotted black;
+}
+#parahh {
+  font-family: New York Extra Large;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 53px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.imgtxtt {
+  font-family: SF Pro Display;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 26px */
+  margin-top: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: #000000;
+}
+hr.hr--logo {
+  border: 1px solid rgb(0, 0, 0);
+  margin: 50px 0;
+}
+hr.hr--logo:after {
+  content: url(eyes.png);
+
+  /* Controls the position of the logo */
+  left: 50%;
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+}
+#formhead {
+  font-family: New York Extra Large;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 28px;
+  /* identical to box height, or 78% */
+  margin-top: 30px;
+
+  text-align: center;
+
+  color: #090909;
+}
+#formparah {
+  width: auto;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  color: #090909;
+}
+
+#border {
+  border-width: 18 px 2 px 2 px 2px !important;
+  border-style: solid;
+  border-color: black;
+  border-image: initial;
+  padding: 50 px;
+}
+footer {
+  color: white;
+  background-color: black;
+}
+.divcolor {
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.samefont {
+  font-family: NewYorkExtraLargeBlack;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footerletter {
+  margin: 14 px 18 px;
+}
+.gridfont {
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+}
+#img-round {
+  border-radius: 30px;
+}
+.footerlist {
+  text-decoration: none;
+  color: white;
+}
+.img-round {
+  border-radius: 30px;
 }
